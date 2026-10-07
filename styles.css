@@ -109,6 +109,9 @@ thead {
     outline-offset: .2rem;
 }
 
+
+/*D4 : SVG Graphics */
+
 .graphic-surface {
     fill: #f1f1f1;
 }
@@ -158,4 +161,12 @@ thead {
 
 .graphic-arrowhead {
     fill: var(--color-muted);
+}
+
+
+/*D5-D6: System and Documentation */
+
+.source-note {
+    padding: var(--space-3);
+    border-left: 4px solid var(--color-accent);
 }
