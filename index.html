@@ -57,34 +57,104 @@
         </section>
         <section id="data-table">
             <h2>D3 · Accessible Data Table</h2>
-            <div class="table-region" role="region" aria-label="Replace with a specific table label" tabindex="0">
+
+            <p>
+                Arizona's statewide growth masks major differences between counties. Pinal and Maricopa counties are projected to add large numbers of residents, while several rural counties are projected to have smaller populations in 2060 than in 2025.
+            </p>
+
+            <div class="table-region" role="region" aria-label="Arizona county population projections" tabindex="0">
+
                 <table>
-                    <caption>Replace with an accurate table caption</caption>
+                    <caption>
+                        Selected Arizona county population projections, 2025–2060
+                    </caption>
+
                     <thead>
                         <tr>
-                            <th scope="col">Category</th>
-                            <th scope="col">Value A</th>
-                            <th scope="col">Value B</th>
-                            <th scope="col">Value C</th>
+                            <th scope="col">County</th>
+                            <th scope="col">2025 population</th>
+                            <th scope="col">2060 population</th>
+                            <th scope="col">Numeric change</th>
+                            <th scope="col">Percent change</th>
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr>
-                            <th scope="row">Replace</th>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
+                            <th scope="row">Pinal</th>
+                            <td>502,100</td>
+                            <td>1,096,900</td>
+                            <td>+594,800</td>
+                            <td>+118.5%</td>
                         </tr>
+
                         <tr>
-                            <th scope="row">Replace</th>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
+                            <th scope="row">Maricopa</th>
+                            <td>4,787,800</td>
+                            <td>6,070,000</td>
+                            <td>+1,282,200</td>
+                            <td>+26.8%</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Yuma</th>
+                            <td>222,100</td>
+                            <td>289,100</td>
+                            <td>+67,000</td>
+                            <td>+30.2%</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Yavapai</th>
+                            <td>253,600</td>
+                            <td>297,900</td>
+                            <td>+44,300</td>
+                            <td>+17.5%</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Cochise</th>
+                            <td>129,000</td>
+                            <td>120,500</td>
+                            <td>-8,500</td>
+                            <td>-6.6%</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Gila</th>
+                            <td>53,900</td>
+                            <td>48,700</td>
+                            <td>-5,200</td>
+                            <td>-9.6%</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Navajo</th>
+                            <td>111,400</td>
+                            <td>96,400</td>
+                            <td>-15,000</td>
+                            <td>-13.5%</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">La Paz</th>
+                            <td>17,300</td>
+                            <td>14,000</td>
+                            <td>-3,300</td>
+                            <td>-19.1%</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <p class="source-note">Add the data source and any transformation note.</p>
+
+            <p class="source-note">
+                <strong>Source:</strong> Arizona Office of Economic Opportunity, Arizona State and County Population Projections: 2025 to 2060, Medium Series, published December 18, 2025.
+            </p>
+
+            <p class="source-note">
+                <strong>Transformation:</strong> The 2025 and 2060 population values are reproduced from the OEO Medium Series spreadsheet. Numeric change was calculated as the 2060 projection minus the 2025 population. Percent change was calculated as
+                numeric change divided by the 2025 population and rounded to one decimal place.
+            </p>
         </section>
         <section id="vector-story">
             <h2>D4 · Responsive SVG</h2>
