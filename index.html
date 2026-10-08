@@ -213,6 +213,47 @@
                     visual consistency throughout the page.
                 </p>
             </p>
+            <p>
+                Documentation for this data story includes the project sources, asset credits, data transformations, accessibility and responsive testing, and AI-use disclosure.
+            </p>
+
+            <h3>Data Source</h3>
+
+            <p>
+                Population data comes from the Arizona Office of Economic Opportunity's Arizona State and County Population Projections: 2025–2060, Medium Series.
+            </p>
+
+            <h3>Data Transformation</h3>
+
+            <p>
+                Numeric population change was calculated by subtracting the 2025 population from the projected 2060 population. Percent change was calculated by dividing the numeric change by the 2025 population and multiplying by 100. Percentages were rounded to one
+                decimal place. Values shown in the SVG were rounded to millions for readability.
+            </p>
+            <h3>AI Disclosure</h3>
+            <p>
+                ChatGPT was used primarily to help develop and troubleshoot the SVG portion of the data story. It helped interpret the D4 requirements, create an initial visual mockup, and provided guidance for making the SVG responsive, accessible, and consistent with
+                the existing design system. I recreated the graphic in Adobe Illustrator and revised the implementation based on testing in the browser. ChatGPT was also used to review HTML and CSS and check assignment requirements. Suggestions were reviewed
+                before use, and suggestions that did not fit the starter code or project requirements were rejected or revised. Population data and calculations were verified against the Arizona Office of Economic Opportunity source.
+            </p>
+            <h3>Sources and Asset Credits</h3>
+
+            <p>
+                Population data:
+                <a href="https://oeo.az.gov/population/projections">
+    Arizona Office of Economic Opportunity — Population Projections
+  </a>, Arizona State and County Population Projections: 2025–2060, Medium Series.
+            </p>
+
+            <p>
+                Editorial figures were created from Arizona Office of Economic Opportunity population projection data. The SVG population graphic was created in Adobe Illustrator using the same projection data, with ChatGPT assistance during the design and implementation
+                process.
+            </p>
+            <h3>Test Record</h3>
+
+            <p>
+                The completed data story was tested at 320px, 768px, and 1280px viewport widths to check responsive behavior. The page was also reviewed at 200% zoom for readable reflow, tested with keyboard navigation, and inspected with images disabled. The accessibility
+                structure of the figures, data table, and SVG was reviewed, and three population values were spot-checked against the original Arizona Office of Economic Opportunity data.
+            </p>
         </section>
     </main>
 </body>
